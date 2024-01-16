@@ -398,9 +398,22 @@ button{
     gap: 20px;
 }
 
-img{
+.icon-image3{
     width: 34px;
     height: 24px;
+}
+
+.footer-endline{
+    width: 1320px;
+    border: 1px solid gray;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.authentication{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 /* Responsi
   
