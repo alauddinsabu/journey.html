@@ -312,6 +312,96 @@ button{
     width: 600px;
     height: 300px;
   }
+
+.lower-section{
+    width: 1250px;
+    height: 350px;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.news-section{
+    width: 474px;
+    height: 422px;
+    flex-shrink: 0;
+    border: 1px solid #FF5400;
+    border-radius: 16px;
+}
+
+.news-head{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.news-para{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    margin-left: 30px;
+}
+
+.btn-1{
+    width: 390px;
+    height: 52px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.btn-2{
+    width: 390px;
+    height: 52px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.btn-3{
+    width: 390px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 30px;
+}
+
+.news-image{
+    width: 670px;
+    margin-left: 100px;
+}
+
+.logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+img{
+    width: 34px;
+    height: 24px;
+}
 /* Responsi
   
 /* Responsi
