@@ -1,14 +1,21 @@
 header{
-    width: 1250px;
+    width:1250px;
     height: 80px;
     margin: 0 auto;
 }
-nav{
+.nav-reper{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-nav> ul{
+
+nav{
+    width:100%;
+    
+}
+
+.nav-section{
     display: flex;
 }
 ul li{
@@ -30,8 +37,14 @@ ul a{
 }
 .logo-header{
     display: flex;
+    align-items: center;
+
+
+
 }
 .logo-image{
+    width: 40px;
+    height: 30px;
     margin-right: 0px;
     padding-right: 0px;
 }
@@ -49,11 +62,13 @@ ul a{
 
 .header-icon{
     display: flex;
+
 }
 
 /* banner section start*/
 
 .back-image{
+    display: flex;
     background-image: url(../Images/Group\ 13\ .png);
     background-repeat: no-repeat;
     width: 1140px;
@@ -63,29 +78,51 @@ ul a{
     margin-left: 60px;
     
 }
+.image-backpart{
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-resize{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .btn{
+    /*display: inline-flex;
+    padding: 16px;
+    align-items: center;
+    gap: 24px; */
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
+   align-items: center; 
    width: 800px;
-   margin-left: 100px;
+   margin-left: 120px;
    border-radius: 8px;
-   background: rgba(255, 255, 255, 0.30);
+   background: rgba(245, 232, 232, 0.3);
+
 }
 button{
-    width: 174px;
+    justify-content: space-around;
+    align-items: center;
+    width: 180px;
     height: 42px;
     flex-shrink: 0;
-    margin-left: 10px;
+    margin-left: 0px;
     border-radius: 8px;
     border: none;
     color: rgba(19, 19, 24, 0.50);
+    background: #FFF;
 }
 .submit{
     background: #FF5400;
 }
 
 .txt-travel{
+    justify-content: center;
+    align-items: center;
     color: #FFF;
     font-family: Mulish;
     font-size: 64px;
@@ -222,28 +259,34 @@ button{
     grid-template-rows: repeat(3, 1fr);
     gap: 10px;
 }
+
 .image-1{
-    
+    position: relative;
     grid-column: 1/span 6;
     grid-row: 1/span 1;
 }
 .image-2{
-    
+    position: relative;
     grid-column: 7/span 6;
 }
 .image-3{
+    position: relative;
     grid-column: 1/span 4;
 }
 .image-4{
+    position: relative;
     grid-column: 5/span 5;
 }
 .image-5{
+    position: relative;
     grid-column: 10/span 4;
 }
 .image-6{
+    position: relative;
     grid-column: 1/span 6;
 }
 .image-7{
+    position: relative;
     grid-column: 7/span 6;
 }
 .image-container img{
@@ -251,6 +294,21 @@ button{
     height: 100%;
     padding: 10px;
 }
+
+.place-name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+   /* transform: translate(-50%, -50%);*/
+}
+
 
 .upfooter-section{
     width:100%;
@@ -379,6 +437,37 @@ button{
 .news-image{
     width: 670px;
     margin-left: 100px;
+}
+
+.offer{
+    width: 300px;
+    height: 120px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    transform: rotate(-35deg);
+    bottom: 200px;
+    margin-left: 450px;
+}
+
+.offer-para{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer-add{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .logo-footer{
